@@ -1,0 +1,23 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anil DAs",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.916.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inbox": "^1.1.59",
+    "lodash": "^4.17.21",
+    "mailparser": "^3.2.0",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.1.2"
+  }
+}
