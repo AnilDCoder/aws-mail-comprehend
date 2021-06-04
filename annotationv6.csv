@@ -1,0 +1,611 @@
+File,Line,Begin Offset,End Offset,Type
+training_data.csv,0,7,18,VESSEL
+training_data.csv,0,39,46,PORT
+training_data.csv,0,58,64,DATE OF OPENING
+training_data.csv,1,6,17,VESSEL
+training_data.csv,1,38,45,PORT
+training_data.csv,1,57,63,DATE OF OPENING
+training_data.csv,13,18,26,VESSEL
+training_data.csv,13,44,51,PORT
+training_data.csv,13,52,62,DATE OF OPENING
+training_data.csv,23,2,18,VESSEL
+training_data.csv,23,40,47,PORT
+training_data.csv,23,59,63,DATE OF OPENING
+training_data.csv,28,8,20,VESSEL
+training_data.csv,28,36,44,PORT
+training_data.csv,28,49,57,DATE OF OPENING
+training_data.csv,62,1,4,VESSEL
+training_data.csv,62,26,39,PORT
+training_data.csv,62,44,55,DATE OF OPENING
+training_data.csv,63,10,15,VESSEL
+training_data.csv,63,22,36,PORT
+training_data.csv,63,44,52,DATE OF OPENING
+training_data.csv,69,8,13,VESSEL
+training_data.csv,69,19,25,PORT
+training_data.csv,69,31,42,DATE OF OPENING
+training_data.csv,73,5,8,VESSEL
+training_data.csv,73,14,20,PORT
+training_data.csv,73,21,30,DATE OF OPENING
+training_data.csv,74,9,12,VESSEL
+training_data.csv,74,17,20,PORT
+training_data.csv,74,21,27,DATE OF OPENING
+training_data.csv,75,5,13,VESSEL
+training_data.csv,75,18,21,PORT
+training_data.csv,75,30,39,DATE OF OPENING
+training_data.csv,77,9,12,VESSEL
+training_data.csv,77,18,27,PORT
+training_data.csv,77,28,44,DATE OF OPENING
+training_data.csv,81,1,12,VESSEL
+training_data.csv,81,30,40,PORT
+training_data.csv,81,41,51,DATE OF OPENING
+training_data.csv,86,8,20,VESSEL
+training_data.csv,86,36,46,PORT
+training_data.csv,86,47,63,DATE OF OPENING
+training_data.csv,110,2,9,VESSEL
+training_data.csv,110,24,34,PORT
+training_data.csv,110,57,67,DATE OF OPENING
+training_data.csv,113,2,17,VESSEL
+training_data.csv,113,31,43,PORT
+training_data.csv,113,55,65,DATE OF OPENING
+training_data.csv,119,2,17,VESSEL
+training_data.csv,119,31,43,PORT
+training_data.csv,119,55,65,DATE OF OPENING
+training_data.csv,122,2,10,VESSEL
+training_data.csv,122,22,25,PORT
+training_data.csv,122,77,86,DATE OF OPENING
+training_data.csv,125,5,8,VESSEL
+training_data.csv,125,14,24,PORT
+training_data.csv,125,25,34,DATE OF OPENING
+training_data.csv,131,4,11,VESSEL
+training_data.csv,131,18,25,PORT
+training_data.csv,131,26,35,DATE OF OPENING
+training_data.csv,132,5,9,VESSEL
+training_data.csv,132,24,33,PORT
+training_data.csv,132,42,55,DATE OF OPENING
+training_data.csv,133,4,16,VESSEL
+training_data.csv,133,26,39,PORT
+training_data.csv,133,40,49,DATE OF OPENING
+training_data.csv,135,19,24,VESSEL
+training_data.csv,135,39,45,PORT
+training_data.csv,135,53,61,DATE OF OPENING
+training_data.csv,138,4,16,VESSEL
+training_data.csv,138,19,27,PORT
+training_data.csv,138,28,37,DATE OF OPENING
+training_data.csv,139,2,10,VESSEL
+training_data.csv,139,14,30,PORT
+training_data.csv,139,33,45,DATE OF OPENING
+training_data.csv,140,4,15,VESSEL
+training_data.csv,140,40,47,PORT
+training_data.csv,140,54,60,DATE OF OPENING
+training_data.csv,141,5,19,VESSEL
+training_data.csv,141,54,60,PORT
+training_data.csv,141,69,76,DATE OF OPENING
+training_data.csv,142,5,15,VESSEL
+training_data.csv,142,31,36,PORT
+training_data.csv,142,44,55,DATE OF OPENING
+training_data.csv,143,6,20,VESSEL
+training_data.csv,143,21,25,PORT
+training_data.csv,143,83,94,DATE OF OPENING
+training_data.csv,145,4,15,VESSEL
+training_data.csv,145,29,38,PORT
+training_data.csv,145,39,47,DATE OF OPENING
+training_data.csv,148,4,17,VESSEL
+training_data.csv,148,20,30,PORT
+training_data.csv,148,31,39,DATE OF OPENING
+training_data.csv,152,6,9,VESSEL
+training_data.csv,152,39,48,PORT
+training_data.csv,152,50,61,DATE OF OPENING
+training_data.csv,154,7,22,VESSEL
+training_data.csv,154,27,38,PORT
+training_data.csv,154,90,98,DATE OF OPENING
+training_data.csv,155,5,23,VESSEL
+training_data.csv,155,29,37,DATE OF OPENING
+training_data.csv,155,46,64,DATE OF OPENING
+training_data.csv,156,4,16,VESSEL
+training_data.csv,156,26,37,PORT
+training_data.csv,156,38,44,DATE OF OPENING
+training_data.csv,165,5,14,VESSEL
+training_data.csv,165,34,42,PORT
+training_data.csv,165,44,65,DATE OF OPENING
+training_data.csv,168,6,16,VESSEL
+training_data.csv,168,51,59,PORT
+training_data.csv,168,60,66,DATE OF OPENING
+training_data.csv,175,4,19,VESSEL
+training_data.csv,175,31,40,DATE OF OPENING
+training_data.csv,178,4,22,VESSEL
+training_data.csv,178,39,45,PORT
+training_data.csv,178,46,57,DATE OF OPENING
+training_data.csv,180,5,17,VESSEL
+training_data.csv,180,30,40,DATE OF OPENING
+training_data.csv,180,55,64,PORT
+training_data.csv,182,1,7,VESSEL
+training_data.csv,182,33,42,PORT
+training_data.csv,182,43,52,DATE OF OPENING
+training_data.csv,186,8,22,VESSEL
+training_data.csv,186,33,42,PORT
+training_data.csv,186,43,49,DATE OF OPENING
+training_data.csv,192,5,14,VESSEL
+training_data.csv,192,27,33,PORT
+training_data.csv,192,34,43,DATE OF OPENING
+training_data.csv,196,5,17,VESSEL
+training_data.csv,196,42,45,PORT
+training_data.csv,196,64,79,DATE OF OPENING
+training_data.csv,197,4,9,VESSEL
+training_data.csv,197,24,34,PORT
+training_data.csv,197,35,47,DATE OF OPENING
+training_data.csv,205,4,10,VESSEL
+training_data.csv,205,20,23,PORT
+training_data.csv,205,24,38,DATE OF OPENING
+training_data.csv,209,1,14,VESSEL
+training_data.csv,209,26,33,PORT
+training_data.csv,209,48,58,DATE OF OPENING
+training_data.csv,217,4,13,VESSEL
+training_data.csv,217,29,32,PORT
+training_data.csv,217,46,55,DATE OF OPENING
+training_data.csv,227,9,22,VESSEL
+training_data.csv,227,32,44,PORT
+training_data.csv,227,45,54,DATE OF OPENING
+training_data.csv,231,9,16,VESSEL
+training_data.csv,231,73,84,PORT
+training_data.csv,231,85,94,DATE OF OPENING
+training_data.csv,234,9,16,VESSEL
+training_data.csv,234,40,47,PORT
+training_data.csv,234,72,86,DATE OF OPENING
+training_data.csv,235,4,14,VESSEL
+training_data.csv,235,29,32,PORT
+training_data.csv,235,33,42,DATE OF OPENING
+training_data.csv,238,9,14,VESSEL
+training_data.csv,238,45,51,PORT
+training_data.csv,238,52,60,DATE OF OPENING
+training_data.csv,249,2,19,VESSEL
+training_data.csv,249,27,33,PORT
+training_data.csv,249,34,44,DATE OF OPENING
+training_data.csv,252,28,33,VESSEL
+training_data.csv,252,47,51,PORT
+training_data.csv,252,98,105,DATE OF OPENING
+training_data.csv,256,4,25,VESSEL
+training_data.csv,256,44,50,PORT
+training_data.csv,256,51,59,DATE OF OPENING
+training_data.csv,257,4,14,VESSEL
+training_data.csv,257,28,36,PORT
+training_data.csv,257,37,46,DATE OF OPENING
+training_data.csv,263,1,12,VESSEL
+training_data.csv,263,28,37,PORT
+training_data.csv,263,38,47,DATE OF OPENING
+training_data.csv,273,28,33,VESSEL
+training_data.csv,273,47,51,PORT
+training_data.csv,273,98,105,DATE OF OPENING
+training_data.csv,275,8,20,VESSEL
+training_data.csv,275,36,46,PORT
+training_data.csv,275,47,63,DATE OF OPENING
+training_data.csv,276,8,22,VESSEL
+training_data.csv,276,33,40,PORT
+training_data.csv,276,41,50,DATE OF OPENING
+training_data.csv,277,5,13,VESSEL
+training_data.csv,277,45,55,PORT
+training_data.csv,277,56,62,DATE OF OPENING
+training_data.csv,285,8,19,VESSEL
+training_data.csv,285,39,48,PORT
+training_data.csv,285,49,57,DATE OF OPENING
+training_data.csv,290,4,23,VESSEL
+training_data.csv,290,35,41,PORT
+training_data.csv,290,49,55,DATE OF OPENING
+training_data.csv,294,9,21,VESSEL
+training_data.csv,294,39,46,PORT
+training_data.csv,294,47,56,DATE OF OPENING
+training_data.csv,295,16,30,VESSEL
+training_data.csv,295,46,54,PORT
+training_data.csv,295,55,63,DATE OF OPENING
+training_data.csv,301,4,15,VESSEL
+training_data.csv,301,35,44,PORT
+training_data.csv,301,45,53,DATE OF OPENING
+training_data.csv,303,4,15,VESSEL
+training_data.csv,303,25,34,PORT
+training_data.csv,303,35,44,DATE OF OPENING
+training_data.csv,308,5,18,VESSEL
+training_data.csv,308,28,36,PORT
+training_data.csv,308,37,46,DATE OF OPENING
+training_data.csv,322,4,12,VESSEL
+training_data.csv,322,26,32,PORT
+training_data.csv,322,38,46,DATE OF OPENING
+training_data.csv,324,4,19,VESSEL
+training_data.csv,324,33,39,PORT
+training_data.csv,324,44,51,DATE OF OPENING
+training_data.csv,326,4,13,VESSEL
+training_data.csv,326,28,35,PORT
+training_data.csv,326,36,45,DATE OF OPENING
+training_data.csv,330,4,13,VESSEL
+training_data.csv,330,28,40,PORT
+training_data.csv,330,41,50,DATE OF OPENING
+training_data.csv,331,5,22,VESSEL
+training_data.csv,331,44,52,PORT
+training_data.csv,331,57,63,DATE OF OPENING
+training_data.csv,336,4,15,VESSEL
+training_data.csv,336,26,30,PORT
+training_data.csv,336,31,40,DATE OF OPENING
+training_data.csv,344,4,19,VESSEL
+training_data.csv,344,26,30,PORT
+training_data.csv,344,31,40,DATE OF OPENING
+training_data.csv,360,4,16,VESSEL
+training_data.csv,360,31,38,PORT
+training_data.csv,360,39,44,DATE OF OPENING
+training_data.csv,367,5,16,VESSEL
+training_data.csv,367,22,25,PORT
+training_data.csv,367,38,50,DATE OF OPENING
+training_data.csv,368,4,15,VESSEL
+training_data.csv,368,29,32,PORT
+training_data.csv,368,36,42,DATE OF OPENING
+training_data.csv,374,9,20,VESSEL
+training_data.csv,374,50,56,PORT
+training_data.csv,374,57,65,DATE OF OPENING
+training_data.csv,375,5,16,VESSEL
+training_data.csv,375,19,25,PORT
+training_data.csv,375,31,39,DATE OF OPENING
+training_data.csv,378,4,17,VESSEL
+training_data.csv,378,23,29,PORT
+training_data.csv,378,30,38,DATE OF OPENING
+training_data.csv,384,4,17,VESSEL
+training_data.csv,384,43,47,PORT
+training_data.csv,384,48,58,DATE OF OPENING
+training_data.csv,387,9,21,VESSEL
+training_data.csv,387,51,58,DATE OF OPENING
+training_data.csv,387,78,89,PORT
+training_data.csv,394,5,14,VESSEL
+training_data.csv,394,25,37,PORT
+training_data.csv,394,46,54,DATE OF OPENING
+training_data.csv,395,4,15,VESSEL
+training_data.csv,395,23,31,PORT
+training_data.csv,395,32,47,DATE OF OPENING
+training_data.csv,413,1,6,VESSEL
+training_data.csv,413,17,28,PORT
+training_data.csv,413,29,38,DATE OF OPENING
+training_data.csv,419,4,17,VESSEL
+training_data.csv,419,31,41,PORT
+training_data.csv,419,42,51,DATE OF OPENING
+training_data.csv,437,1,8,VESSEL
+training_data.csv,437,25,27,DATE OF OPENING
+training_data.csv,437,37,51,PORT
+training_data.csv,437,54,60,DATE OF OPENING
+training_data.csv,441,8,19,VESSEL
+training_data.csv,441,34,41,PORT
+training_data.csv,441,42,51,DATE OF OPENING
+training_data.csv,450,8,19,VESSEL
+training_data.csv,450,27,33,PORT
+training_data.csv,450,34,49,DATE OF OPENING
+training_data.csv,458,9,12,VESSEL
+training_data.csv,458,54,61,PORT
+training_data.csv,458,62,68,DATE OF OPENING
+training_data.csv,464,9,12,VESSEL
+training_data.csv,464,18,22,PORT
+training_data.csv,464,23,32,DATE OF OPENING
+training_data.csv,471,4,14,VESSEL
+training_data.csv,471,30,39,PORT
+training_data.csv,471,40,55,DATE OF OPENING
+training_data.csv,477,9,12,VESSEL
+training_data.csv,477,18,24,PORT
+training_data.csv,477,25,34,DATE OF OPENING
+training_data.csv,478,9,12,VESSEL
+training_data.csv,478,57,69,PORT
+training_data.csv,478,70,79,DATE OF OPENING
+training_data.csv,494,9,12,VESSEL
+training_data.csv,494,18,30,PORT
+training_data.csv,494,31,40,DATE OF OPENING
+training_data.csv,504,2,14,VESSEL
+training_data.csv,504,37,49,PORT
+training_data.csv,504,67,77,DATE OF OPENING
+training_data.csv,505,9,12,VESSEL
+training_data.csv,505,18,25,PORT
+training_data.csv,505,26,36,DATE OF OPENING
+training_data.csv,508,9,12,VESSEL
+training_data.csv,508,24,31,PORT
+training_data.csv,508,32,42,DATE OF OPENING
+training_data.csv,525,24,34,VESSEL
+training_data.csv,525,37,41,PORT
+training_data.csv,525,57,67,DATE OF OPENING
+training_data.csv,531,8,21,VESSEL
+training_data.csv,531,27,40,PORT
+training_data.csv,531,41,48,DATE OF OPENING
+training_data.csv,533,8,20,VESSEL
+training_data.csv,533,42,50,PORT
+training_data.csv,533,51,60,DATE OF OPENING
+training_data.csv,546,4,19,VESSEL
+training_data.csv,546,22,26,PORT
+training_data.csv,546,27,36,DATE OF OPENING
+training_data.csv,550,5,14,VESSEL
+training_data.csv,550,15,26,DATE OF OPENING
+training_data.csv,550,33,45,PORT
+training_data.csv,552,12,21,VESSEL
+training_data.csv,552,27,31,PORT
+training_data.csv,552,45,59,DATE OF OPENING
+training_data.csv,560,4,23,VESSEL
+training_data.csv,560,35,41,PORT
+training_data.csv,560,42,48,DATE OF OPENING
+training_data.csv,564,4,15,VESSEL
+training_data.csv,564,29,38,PORT
+training_data.csv,564,39,47,DATE OF OPENING
+training_data.csv,568,4,14,VESSEL
+training_data.csv,568,29,36,PORT
+training_data.csv,568,37,51,DATE OF OPENING
+training_data.csv,571,8,18,VESSEL
+training_data.csv,571,63,69,PORT
+training_data.csv,571,73,81,DATE OF OPENING
+training_data.csv,574,5,13,VESSEL
+training_data.csv,574,31,40,PORT
+training_data.csv,574,41,50,DATE OF OPENING
+training_data.csv,577,4,16,VESSEL
+training_data.csv,577,19,27,PORT
+training_data.csv,577,28,37,DATE OF OPENING
+training_data.csv,592,5,19,VESSEL
+training_data.csv,592,42,50,PORT
+training_data.csv,592,69,76,DATE OF OPENING
+training_data.csv,594,19,28,VESSEL
+training_data.csv,594,42,48,PORT
+training_data.csv,594,49,64,DATE OF OPENING
+training_data.csv,596,11,14,VESSEL
+training_data.csv,596,44,53,PORT
+training_data.csv,596,55,66,DATE OF OPENING
+training_data.csv,597,4,17,VESSEL
+training_data.csv,597,20,30,PORT
+training_data.csv,597,31,39,DATE OF OPENING
+training_data.csv,598,4,18,VESSEL
+training_data.csv,598,29,38,PORT
+training_data.csv,598,39,45,DATE OF OPENING
+training_data.csv,601,4,11,VESSEL
+training_data.csv,601,27,33,PORT
+training_data.csv,601,34,46,DATE OF OPENING
+training_data.csv,605,5,17,VESSEL
+training_data.csv,605,43,46,PORT
+training_data.csv,605,64,76,DATE OF OPENING
+training_data.csv,609,4,14,VESSEL
+training_data.csv,609,28,31,PORT
+training_data.csv,609,32,40,DATE OF OPENING
+training_data.csv,616,4,9,VESSEL
+training_data.csv,616,24,31,PORT
+training_data.csv,616,32,41,DATE OF OPENING
+training_data.csv,619,17,22,VESSEL
+training_data.csv,619,37,44,PORT
+training_data.csv,619,45,54,DATE OF OPENING
+training_data.csv,625,5,12,VESSEL
+training_data.csv,625,45,52,PORT
+training_data.csv,625,66,72,DATE OF OPENING
+training_data.csv,630,4,11,VESSEL
+training_data.csv,630,18,25,PORT
+training_data.csv,630,26,35,DATE OF OPENING
+training_data.csv,633,4,16,VESSEL
+training_data.csv,633,26,29,PORT
+training_data.csv,633,37,46,DATE OF OPENING
+training_data.csv,638,4,16,VESSEL
+training_data.csv,638,31,37,PORT
+training_data.csv,638,38,47,DATE OF OPENING
+training_data.csv,640,5,16,VESSEL
+training_data.csv,640,46,52,PORT
+training_data.csv,640,53,61,DATE OF OPENING
+training_data.csv,644,14,28,VESSEL
+training_data.csv,644,42,47,PORT
+training_data.csv,644,48,55,DATE OF OPENING
+training_data.csv,647,9,14,VESSEL
+training_data.csv,647,45,51,PORT
+training_data.csv,647,52,60,DATE OF OPENING
+training_data.csv,649,4,17,VESSEL
+training_data.csv,649,31,41,PORT
+training_data.csv,649,42,51,DATE OF OPENING
+training_data.csv,650,5,16,VESSEL
+training_data.csv,650,19,25,PORT
+training_data.csv,650,31,39,DATE OF OPENING
+training_data.csv,656,5,13,VESSEL
+training_data.csv,656,31,38,PORT
+training_data.csv,656,39,54,DATE OF OPENING
+training_data.csv,663,16,30,VESSEL
+training_data.csv,663,46,54,PORT
+training_data.csv,663,55,63,DATE OF OPENING
+training_data.csv,664,8,20,VESSEL
+training_data.csv,664,42,50,PORT
+training_data.csv,664,51,60,DATE OF OPENING
+training_data.csv,665,8,21,VESSEL
+training_data.csv,665,27,40,PORT
+training_data.csv,665,41,48,DATE OF OPENING
+training_data.csv,667,8,19,VESSEL
+training_data.csv,667,34,41,PORT
+training_data.csv,667,42,51,DATE OF OPENING
+training_data.csv,674,24,37,VESSEL
+training_data.csv,674,62,75,PORT
+training_data.csv,674,76,86,DATE OF OPENING
+training_data.csv,679,4,17,VESSEL
+training_data.csv,679,81,90,PORT
+training_data.csv,679,94,104,DATE OF OPENING
+training_data.csv,686,20,35,VESSEL
+training_data.csv,686,51,56,PORT
+training_data.csv,686,57,66,DATE OF OPENING
+training_data.csv,689,5,22,VESSEL
+training_data.csv,689,44,52,PORT
+training_data.csv,689,57,63,DATE OF OPENING
+training_data.csv,697,4,17,VESSEL
+training_data.csv,697,43,47,PORT
+training_data.csv,697,48,58,DATE OF OPENING
+training_data.csv,698,5,14,VESSEL
+training_data.csv,698,21,29,PORT
+training_data.csv,698,37,51,DATE OF OPENING
+training_data.csv,699,5,17,VESSEL
+training_data.csv,699,40,46,PORT
+training_data.csv,699,47,53,DATE OF OPENING
+training_data.csv,700,14,25,VESSEL
+training_data.csv,700,39,45,PORT
+training_data.csv,700,46,60,DATE OF OPENING
+training_data.csv,704,1,5,DATE OF OPENING
+training_data.csv,704,18,27,VESSEL
+training_data.csv,704,40,48,PORT
+training_data.csv,706,14,26,VESSEL
+training_data.csv,706,45,53,PORT
+training_data.csv,706,54,63,DATE OF OPENING
+training_data.csv,719,10,20,VESSEL
+training_data.csv,719,35,42,PORT
+training_data.csv,719,54,63,DATE OF OPENING
+training_data.csv,758,2,15,VESSEL
+training_data.csv,758,34,40,PORT
+training_data.csv,758,62,78,DATE OF OPENING
+training_data.csv,759,1,4,VESSEL
+training_data.csv,759,18,24,PORT
+training_data.csv,759,25,34,DATE OF OPENING
+training_data.csv,760,1,4,VESSEL
+training_data.csv,760,18,26,PORT
+training_data.csv,760,27,37,DATE OF OPENING
+training_data.csv,761,2,5,VESSEL
+training_data.csv,761,22,27,PORT
+training_data.csv,761,32,41,DATE OF OPENING
+training_data.csv,762,1,4,VESSEL
+training_data.csv,762,18,22,PORT
+training_data.csv,762,23,32,DATE OF OPENING
+training_data.csv,780,4,16,VESSEL
+training_data.csv,780,35,47,PORT
+training_data.csv,780,48,57,DATE OF OPENING
+training_data.csv,784,2,9,VESSEL
+training_data.csv,784,43,52,PORT
+training_data.csv,784,55,65,DATE OF OPENING
+training_data.csv,785,1,4,VESSEL
+training_data.csv,785,20,28,PORT
+training_data.csv,792,5,18,VESSEL
+training_data.csv,792,28,36,PORT
+training_data.csv,792,37,46,DATE OF OPENING
+training_data.csv,808,9,22,VESSEL
+training_data.csv,808,32,44,PORT
+training_data.csv,808,45,54,DATE OF OPENING
+training_data.csv,809,8,19,VESSEL
+training_data.csv,809,35,42,PORT
+training_data.csv,809,43,53,DATE OF OPENING
+training_data.csv,811,6,11,VESSEL
+training_data.csv,811,19,25,PORT
+training_data.csv,811,43,49,DATE OF OPENING
+training_data.csv,831,4,21,VESSEL
+training_data.csv,834,8,25,VESSEL
+training_data.csv,851,5,9,VESSEL
+training_data.csv,851,24,33,PORT
+training_data.csv,851,42,55,DATE OF OPENING
+training_data.csv,853,4,14,VESSEL
+training_data.csv,853,24,30,PORT
+training_data.csv,853,31,46,DATE OF OPENING
+training_data.csv,869,18,27,VESSEL
+training_data.csv,869,38,42,PORT
+training_data.csv,869,56,70,DATE OF OPENING
+training_data.csv,874,4,11,VESSEL
+training_data.csv,874,17,23,PORT
+training_data.csv,874,34,46,DATE OF OPENING
+training_data.csv,877,4,12,VESSEL
+training_data.csv,877,22,33,PORT
+training_data.csv,877,34,47,DATE OF OPENING
+training_data.csv,879,4,14,VESSEL
+training_data.csv,879,29,36,PORT
+training_data.csv,879,37,49,DATE OF OPENING
+training_data.csv,880,4,16,VESSEL
+training_data.csv,880,32,35,PORT
+training_data.csv,880,36,42,DATE OF OPENING
+training_data.csv,892,4,15,VESSEL
+training_data.csv,892,29,38,PORT
+training_data.csv,892,39,47,DATE OF OPENING
+training_data.csv,898,9,22,VESSEL
+training_data.csv,898,38,51,DATE OF OPENING
+training_data.csv,898,57,63,PORT
+training_data.csv,904,4,12,VESSEL
+training_data.csv,904,36,45,PORT
+training_data.csv,904,46,55,DATE OF OPENING
+training_data.csv,905,4,11,VESSEL
+training_data.csv,905,14,23,PORT
+training_data.csv,905,24,34,DATE OF OPENING
+training_data.csv,910,4,15,VESSEL
+training_data.csv,910,27,30,PORT
+training_data.csv,910,35,48,DATE OF OPENING
+training_data.csv,918,4,16,VESSEL
+training_data.csv,918,32,35,PORT
+training_data.csv,918,50,62,DATE OF OPENING
+training_data.csv,919,4,16,VESSEL
+training_data.csv,919,26,33,PORT
+training_data.csv,919,34,42,DATE OF OPENING
+training_data.csv,920,5,13,VESSEL
+training_data.csv,920,31,40,PORT
+training_data.csv,920,43,52,DATE OF OPENING
+training_data.csv,925,5,17,VESSEL
+training_data.csv,925,32,38,PORT
+training_data.csv,925,39,48,DATE OF OPENING
+training_data.csv,930,4,16,VESSEL
+training_data.csv,930,26,35,PORT
+training_data.csv,930,43,49,DATE OF OPENING
+training_data.csv,944,5,10,VESSEL
+training_data.csv,944,20,23,PORT
+training_data.csv,944,31,39,DATE OF OPENING
+training_data.csv,945,4,9,VESSEL
+training_data.csv,945,15,24,PORT
+training_data.csv,945,25,32,DATE OF OPENING
+training_data.csv,946,5,9,VESSEL
+training_data.csv,946,26,35,PORT
+training_data.csv,946,45,58,DATE OF OPENING
+training_data.csv,947,6,11,VESSEL
+training_data.csv,947,28,38,PORT
+training_data.csv,947,46,59,DATE OF OPENING
+training_data.csv,953,4,14,VESSEL
+training_data.csv,953,27,32,PORT
+training_data.csv,953,40,48,DATE OF OPENING
+training_data.csv,964,4,15,VESSEL
+training_data.csv,964,29,34,PORT
+training_data.csv,964,39,45,DATE OF OPENING
+training_data.csv,966,4,17,VESSEL
+training_data.csv,966,31,38,PORT
+training_data.csv,966,43,50,DATE OF OPENING
+training_data.csv,967,4,12,VESSEL
+training_data.csv,967,26,32,PORT
+training_data.csv,967,38,46,DATE OF OPENING
+training_data.csv,969,4,16,VESSEL
+training_data.csv,969,35,47,PORT
+training_data.csv,969,48,57,DATE OF OPENING
+training_data.csv,970,4,25,VESSEL
+training_data.csv,970,44,50,PORT
+training_data.csv,970,51,59,DATE OF OPENING
+training_data.csv,974,4,17,VESSEL
+training_data.csv,974,20,30,PORT
+training_data.csv,974,31,46,DATE OF OPENING
+training_data.csv,981,4,17,VESSEL
+training_data.csv,981,31,36,PORT
+training_data.csv,981,37,48,DATE OF OPENING
+training_data.csv,982,4,19,VESSEL
+training_data.csv,982,26,30,PORT
+training_data.csv,982,31,40,DATE OF OPENING
+training_data.csv,983,4,17,VESSEL
+training_data.csv,983,32,44,PORT
+training_data.csv,983,58,66,DATE OF OPENING
+training_data.csv,984,5,14,VESSEL
+training_data.csv,984,25,37,PORT
+training_data.csv,984,46,52,DATE OF OPENING
+training_data.csv,986,4,14,VESSEL
+training_data.csv,986,29,32,PORT
+training_data.csv,986,33,42,DATE OF OPENING
+training_data.csv,988,9,14,VESSEL
+training_data.csv,988,46,52,PORT
+training_data.csv,988,53,59,DATE OF OPENING
+training_data.csv,989,5,18,VESSEL
+training_data.csv,989,49,55,PORT
+training_data.csv,989,56,65,DATE OF OPENING
+training_data.csv,992,9,23,VESSEL
+training_data.csv,992,35,39,PORT
+training_data.csv,992,66,84,DATE OF OPENING
+training_data.csv,994,6,16,VESSEL
+training_data.csv,994,33,40,PORT
+training_data.csv,994,48,60,DATE OF OPENING
+training_data.csv,996,4,9,VESSEL
+training_data.csv,996,24,31,PORT
+training_data.csv,996,32,43,DATE OF OPENING
+training_data.csv,1001,9,21,VESSEL
+training_data.csv,1001,39,46,PORT
+training_data.csv,1001,47,57,DATE OF OPENING
+training_data.csv,1002,4,11,VESSEL
+training_data.csv,1002,25,32,PORT
+training_data.csv,1002,33,41,DATE OF OPENING
+training_data.csv,1006,4,13,VESSEL
+training_data.csv,1006,28,35,PORT
+training_data.csv,1006,36,48,DATE OF OPENING
+training_data.csv,1012,4,18,VESSEL
+training_data.csv,1012,34,40,PORT
+training_data.csv,1012,48,61,DATE OF OPENING
+training_data.csv,1013,4,16,VESSEL
+training_data.csv,1013,32,39,PORT
+training_data.csv,1013,40,49,DATE OF OPENING
+training_data.csv,1017,4,16,VESSEL
+training_data.csv,1017,26,35,PORT
+training_data.csv,1017,36,45,DATE OF OPENING

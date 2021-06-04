@@ -60,25 +60,29 @@ module.exports = function (app, io) {
   });
 
   app.get("/titles", async function (req, res) {
-    await doc.useServiceAccountAuth(creds);
-    await doc.loadInfo();
-    console.log(doc.title);
-    const sheet = await doc.addSheet({ headerValues: ["name"] });
+    // await doc.useServiceAccountAuth(creds);
+    // await doc.loadInfo();
+    // console.log(doc.title);
+    // const sheet = await doc.addSheet({ headerValues: ["name"] });
     client.openMailbox("INBOX", function (error, mailbox) {
       if (error) throw error;
-      client.listMessages(-mailbox.length, async function (err, messages) {
+      client.listMessages(-mailbox.length, function (err, messages) {
         var promiseArray = [];
         for (var i = 0; i < messages.length; i++) {
-          console.log(
-            "🚀 ~ file: index.js ~ line 78 ~ adding title",
-            messages[i].title
-          );
-          await sheet.addRow({ name: messages[i].title });
-          promiseArray.push(messages[i].title);
-          if (i == messages.length - 1) {
-            res.send({ data: promiseArray });
-          }
+          const content = messages[i].title + "\n";
+          fs.writeFile("MailBody.csv", content, { flag: "a+" }, (err) => {});
+
+          // console.log(
+          //   "🚀 ~ file: index.js ~ line 78 ~ adding title",
+          //   messages[i].title
+          // );
+          // await sheet.addRow({ name: messages[i].title });
+          // promiseArray.push(messages[i].title);
+          // if (i == messages.length - 1) {
+          //   res.send({ data: promiseArray });
+          // }
         }
+        res.send({});
       });
     });
   });
@@ -122,58 +126,28 @@ module.exports = function (app, io) {
   app.get("/createRecognizer", function (req, res) {
     var params = {
       DataAccessRoleArn:
-        "arn:aws:comprehend:ap-south-1:703971834267:entity-recognizer/comprehend-v1" /* required */,
+        "arn:aws:iam::703971834267:role/service-role/AmazonComprehendServiceRole-ComprehendCustomEntity" /* required */,
       InputDataConfig: {
-        /* required */
         EntityTypes: [
-          /* required */
           {
-            Type: "STRING_VALUE" /* required */,
+            Type: "VESSEL",
           },
-          /* more items */
+          {
+            Type: "PORT",
+          },
+          {
+            Type: "DATE OF OPENING",
+          },
         ],
         Annotations: {
-          S3Uri: "STRING_VALUE" /* required */,
+          S3Uri: "s3://comprehend-stuff/input/annotationv6.csv" /* required */,
         },
-        AugmentedManifests: [
-          {
-            AttributeNames: [
-              /* required */
-              "STRING_VALUE",
-              /* more items */
-            ],
-            S3Uri: "STRING_VALUE" /* required */,
-          },
-          /* more items */
-        ],
-        DataFormat: COMPREHEND_CSV | AUGMENTED_MANIFEST,
         Documents: {
-          S3Uri: "STRING_VALUE" /* required */,
-        },
-        EntityList: {
-          S3Uri: "STRING_VALUE" /* required */,
+          S3Uri: "s3://comprehend-stuff/input/training_data.csv" /* required */,
         },
       },
-      LanguageCode: en /* required */,
-      RecognizerName: "MARVEL" /* required */,
-      Tags: [
-        {
-          Key: "VESSEL" /* required */,
-        },
-        /* more items */
-      ],
-      // VpcConfig: {
-      //   SecurityGroupIds: [
-      //     /* required */
-      //     "STRING_VALUE",
-      //     /* more items */
-      //   ],
-      //   Subnets: [
-      //     /* required */
-      //     "STRING_VALUE",
-      //     /* more items */
-      //   ],
-      // },
+      LanguageCode: "en",
+      RecognizerName: "v10",
     };
     comprehend.createEntityRecognizer(params, function (err, data) {
       if (err) console.log(err, err.stack);
@@ -181,6 +155,50 @@ module.exports = function (app, io) {
       else console.log(data); // successful response
     });
     res.send({});
+  });
+
+  app.get("/createEndPoint", function (req, res) {
+    var params = {
+      DesiredInferenceUnits: "1" /* required */,
+      EndpointName: "v6" /* required */,
+      ModelArn:
+        "arn:aws:comprehend:ap-south-1:703971834267:entity-recognizer/v9" /* required */,
+    };
+    comprehend.createEndpoint(params, function (err, data) {
+      if (err) console.log(err, err.stack);
+      // an error occurred
+      else console.log(data); // successful response
+    });
+    res.send({});
+  });
+
+  app.get("/addFullStop", function (req, res) {
+    try {
+      res.send({});
+
+      var allLines = fs
+        .readFileSync("training_data-prev.txt")
+        .toString()
+        // .replace(/[^a-zA-Z0-9]/g, " ")
+        .split("\n");
+      fs.writeFileSync("training_data-prev.txt", "", function () {
+        console.log("file is empty");
+      });
+      allLines.forEach(function (line) {
+        line = line.replace(/[^a-zA-Z0-9]/g, " ");
+        var newLine = line + ".";
+        console.log(newLine);
+        fs.appendFileSync("training_data-prev.txt", newLine.toString() + "\n");
+      });
+
+      // each line would have "candy" appended
+      allLines = fs
+        .readFileSync("training_data-prev.txt")
+        .toString()
+        .split("\n");
+    } catch (err) {
+      console.error(err);
+    }
   });
 };
 
