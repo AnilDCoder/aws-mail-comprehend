@@ -1,4 +1,5 @@
 var express = require("express");
+var bodyParser = require('body-parser')
 var socketio = require("socket.io");
 var cors = require("cors");
 var http = (http = require("http"));
@@ -6,6 +7,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 var app = express();
 app.use(cors());
+app.use(bodyParser.json());
 var server = http.createServer(app);
 var io = socketio(server, { cors: true });
 app.set("socketio", io);
